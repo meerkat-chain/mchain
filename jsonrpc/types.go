@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 // For union type of transaction and types.Hash

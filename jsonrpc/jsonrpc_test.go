@@ -6,8 +6,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/versioning"
+	"github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/versioning"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/hashicorp/go-hclog"
@@ -34,7 +34,7 @@ func TestHTTPServer(t *testing.T) {
 
 func Test_handleGetRequest(t *testing.T) {
 	var (
-		chainName = "polygon-edge-test"
+		chainName = "mchain-test"
 		chainID   = uint64(200)
 	)
 

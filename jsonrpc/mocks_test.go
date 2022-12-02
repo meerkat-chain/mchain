@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/blockchain"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 type mockAccount struct {

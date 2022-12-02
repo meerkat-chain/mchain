@@ -6,9 +6,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
+	"github.com/meerkat-chain/mchain/validators/store"
 )
 
 // snapshotMetadata defines the metadata for the snapshot

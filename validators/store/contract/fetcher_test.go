@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	testHelper "github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 	"github.com/stretchr/testify/assert"
 )
 

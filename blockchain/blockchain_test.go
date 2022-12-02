@@ -7,15 +7,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/state"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/state"
 
-	"github.com/0xPolygon/polygon-edge/chain"
+	"github.com/meerkat-chain/mchain/chain"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/0xPolygon/polygon-edge/blockchain/storage"
-	"github.com/0xPolygon/polygon-edge/blockchain/storage/memory"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/blockchain/storage"
+	"github.com/meerkat-chain/mchain/blockchain/storage/memory"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 func TestGenesis(t *testing.T) {

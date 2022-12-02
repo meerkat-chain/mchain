@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/helper/keccak"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/umbracle/fastrlp"
 )
 

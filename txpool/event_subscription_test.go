@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/txpool/proto"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/stretchr/testify/assert"
 )
 

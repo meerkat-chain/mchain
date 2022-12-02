@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-multierror"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 var (

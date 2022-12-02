@@ -3,15 +3,15 @@ package fork
 import (
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/hook"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
-	"github.com/0xPolygon/polygon-edge/validators/store/contract"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/consensus/ibft/hook"
+	"github.com/meerkat-chain/mchain/consensus/ibft/signer"
+	"github.com/meerkat-chain/mchain/secrets"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
+	"github.com/meerkat-chain/mchain/validators/store"
+	"github.com/meerkat-chain/mchain/validators/store/contract"
 )
 
 const (

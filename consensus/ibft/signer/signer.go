@@ -3,9 +3,9 @@ package signer
 import (
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 )
 
 var (

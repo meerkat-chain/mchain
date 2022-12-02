@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/network/event"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/network/event"
 
-	"github.com/0xPolygon/polygon-edge/network/proto"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/meerkat-chain/mchain/network/proto"
 )
 
 const PeerID = "peerID"

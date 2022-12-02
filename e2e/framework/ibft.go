@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 type IBFTServersManager struct {

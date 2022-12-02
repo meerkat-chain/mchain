@@ -3,11 +3,11 @@ package contract
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/contracts/staking"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 )
 
 // FetchValidators fetches validators from a contract switched by validator type

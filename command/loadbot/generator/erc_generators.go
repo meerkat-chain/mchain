@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
+	"github.com/meerkat-chain/mchain/crypto"
 )
 
 // call ERC20 contract method and encode parameters

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/txpool/proto"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/stretchr/testify/assert"
 )
 

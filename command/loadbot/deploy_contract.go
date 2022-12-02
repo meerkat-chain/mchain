@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/command/loadbot/generator"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	txpoolOp "github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/command/loadbot/generator"
+	"github.com/meerkat-chain/mchain/helper/tests"
+	txpoolOp "github.com/meerkat-chain/mchain/txpool/proto"
+	"github.com/meerkat-chain/mchain/types"
 
 	"github.com/umbracle/ethgo/jsonrpc"
 )

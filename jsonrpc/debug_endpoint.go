@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer/structtracer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/state/runtime/tracer"
+	"github.com/meerkat-chain/mchain/state/runtime/tracer/structtracer"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 var (

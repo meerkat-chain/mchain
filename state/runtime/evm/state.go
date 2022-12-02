@@ -7,10 +7,10 @@ import (
 
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/state/runtime"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 var statePool = sync.Pool{

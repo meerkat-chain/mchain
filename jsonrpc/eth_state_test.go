@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/state/runtime"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/fastrlp"
 )

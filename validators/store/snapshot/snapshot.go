@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
+	"github.com/meerkat-chain/mchain/validators/store"
 )
 
 const (

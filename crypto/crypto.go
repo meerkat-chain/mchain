@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keystore"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/helper/keystore"
+	"github.com/meerkat-chain/mchain/secrets"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/umbracle/fastrlp"
 	"golang.org/x/crypto/sha3"
 )

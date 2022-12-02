@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/jsonrpc"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/gorilla/websocket"
+	"github.com/meerkat-chain/mchain/e2e/framework"
+	"github.com/meerkat-chain/mchain/jsonrpc"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/stretchr/testify/assert"
 )
 

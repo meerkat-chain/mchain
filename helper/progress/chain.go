@@ -3,7 +3,7 @@ package progress
 import (
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
+	"github.com/meerkat-chain/mchain/blockchain"
 )
 
 type ChainSyncType string

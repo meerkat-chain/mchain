@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/meerkat-chain/mchain/consensus/ibft/proto"
+	"github.com/meerkat-chain/mchain/consensus/ibft/signer"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
+	"github.com/meerkat-chain/mchain/validators/store"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

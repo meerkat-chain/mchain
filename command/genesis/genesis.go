@@ -3,12 +3,12 @@ package genesis
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/genesis/predeploy"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/command"
+	"github.com/meerkat-chain/mchain/command/genesis/predeploy"
+	"github.com/meerkat-chain/mchain/command/helper"
+	"github.com/meerkat-chain/mchain/consensus/ibft"
+	"github.com/meerkat-chain/mchain/helper/common"
+	"github.com/meerkat-chain/mchain/validators"
 	"github.com/spf13/cobra"
 )
 
@@ -40,7 +40,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.genesisPath,
 		dirFlag,
 		fmt.Sprintf("./%s", command.DefaultGenesisFileName),
-		"the directory for the Polygon Edge genesis data",
+		"the directory for the Meerkat Chain genesis data",
 	)
 
 	cmd.Flags().Uint64Var(

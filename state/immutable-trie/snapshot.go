@@ -1,9 +1,9 @@
 package itrie
 
 import (
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/umbracle/fastrlp"
 )
 

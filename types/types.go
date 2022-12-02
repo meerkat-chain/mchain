@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/helper/keccak"
 )
 
 var ZeroAddress = Address{}

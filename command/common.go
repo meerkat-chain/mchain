@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/local"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/helper/common"
+	"github.com/meerkat-chain/mchain/secrets"
+	"github.com/meerkat-chain/mchain/secrets/local"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 )
 
 const (

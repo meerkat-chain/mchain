@@ -1,7 +1,7 @@
 package output
 
 import (
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/meerkat-chain/mchain/command"
 	"github.com/spf13/cobra"
 )
 
@@ -23,7 +23,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.dataDir,
 		dataDirFlag,
 		"",
-		"the directory for the Polygon Edge data if the local FS is used",
+		"the directory for the Meerkat Chain data if the local FS is used",
 	)
 
 	cmd.Flags().StringVar(

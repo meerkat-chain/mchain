@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	testproto "github.com/0xPolygon/polygon-edge/network/proto"
 	"github.com/libp2p/go-libp2p/core/peer"
+	testproto "github.com/meerkat-chain/mchain/network/proto"
 )
 
 func NumSubscribers(srv *Server, topic string) int {

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/versioning"
 	"github.com/gorilla/websocket"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/versioning"
 )
 
 type serverType int

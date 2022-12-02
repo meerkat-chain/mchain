@@ -1,13 +1,13 @@
 package ibft
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/ibft/candidates"
-	"github.com/0xPolygon/polygon-edge/command/ibft/propose"
-	"github.com/0xPolygon/polygon-edge/command/ibft/quorum"
-	"github.com/0xPolygon/polygon-edge/command/ibft/snapshot"
-	"github.com/0xPolygon/polygon-edge/command/ibft/status"
-	_switch "github.com/0xPolygon/polygon-edge/command/ibft/switch"
+	"github.com/meerkat-chain/mchain/command/helper"
+	"github.com/meerkat-chain/mchain/command/ibft/candidates"
+	"github.com/meerkat-chain/mchain/command/ibft/propose"
+	"github.com/meerkat-chain/mchain/command/ibft/quorum"
+	"github.com/meerkat-chain/mchain/command/ibft/snapshot"
+	"github.com/meerkat-chain/mchain/command/ibft/status"
+	_switch "github.com/meerkat-chain/mchain/command/ibft/switch"
 	"github.com/spf13/cobra"
 )
 

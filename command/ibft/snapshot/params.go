@@ -3,8 +3,8 @@ package snapshot
 import (
 	"context"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	ibftOp "github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
+	"github.com/meerkat-chain/mchain/command/helper"
+	ibftOp "github.com/meerkat-chain/mchain/consensus/ibft/proto"
 )
 
 const (

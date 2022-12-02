@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/txpool/proto"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -37,10 +37,10 @@ jobs:
       url: https://rpc.us-east-1.tn.testing.psdk.io/
     runs-on: ubuntu-latest
     steps:
-      - name: Download Polygon Edge Artifact
+      - name: Download Meerkat Chain Artifact
         uses: actions/download-artifact@v3
         with:
-          name: polygon-edge
+          name: mchain
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -77,7 +77,7 @@ jobs:
 
       - name: Publish Binary package to S3
         run: |
-          aws s3 cp ./polygon-edge.tar.gz s3://${{ secrets.POLYGON_EDGE_ARTIFACT_BUCKET }} --metadata "{\"commit_sha\":\"${GITHUB_SHA}\"}"
+          aws s3 cp ./mchain.tar.gz s3://${{ secrets.POLYGON_EDGE_ARTIFACT_BUCKET }} --metadata "{\"commit_sha\":\"${GITHUB_SHA}\"}"
       - name: Deploy to Testnet
         continue-on-error: true
         env:

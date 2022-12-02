@@ -3,9 +3,9 @@ package precompiled
 import (
 	"encoding/binary"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/state/runtime"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 var _ runtime.Runtime = &Precompiled{}

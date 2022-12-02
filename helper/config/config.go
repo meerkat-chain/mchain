@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 // GetWhitelist fetches whitelist object from the config

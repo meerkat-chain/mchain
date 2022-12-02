@@ -3,12 +3,12 @@ package fork
 import (
 	"path/filepath"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
-	"github.com/0xPolygon/polygon-edge/validators/store/contract"
-	"github.com/0xPolygon/polygon-edge/validators/store/snapshot"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/consensus/ibft/signer"
+	"github.com/meerkat-chain/mchain/validators"
+	"github.com/meerkat-chain/mchain/validators/store"
+	"github.com/meerkat-chain/mchain/validators/store/contract"
+	"github.com/meerkat-chain/mchain/validators/store/snapshot"
 )
 
 // SnapshotValidatorStoreWrapper is a wrapper of store.SnapshotValidatorStore

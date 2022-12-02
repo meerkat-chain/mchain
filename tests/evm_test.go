@@ -7,15 +7,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/helper/keccak"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/state/runtime"
+	"github.com/meerkat-chain/mchain/state/runtime/evm"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/umbracle/fastrlp"
 )
 

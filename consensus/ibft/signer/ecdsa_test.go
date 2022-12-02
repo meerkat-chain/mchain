@@ -5,12 +5,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	testHelper "github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/secrets"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 	"github.com/stretchr/testify/assert"
 )
 

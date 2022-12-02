@@ -8,7 +8,7 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/umbracle/ethgo/jsonrpc"
 )
 

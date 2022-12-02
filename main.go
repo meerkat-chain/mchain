@@ -3,8 +3,8 @@ package main
 import (
 	_ "embed"
 
-	"github.com/0xPolygon/polygon-edge/command/root"
-	"github.com/0xPolygon/polygon-edge/licenses"
+	"github.com/meerkat-chain/mchain/command/root"
+	"github.com/meerkat-chain/mchain/licenses"
 )
 
 var (

@@ -4,18 +4,18 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/awsssm"
-	"github.com/0xPolygon/polygon-edge/secrets/gcpssm"
-	"github.com/0xPolygon/polygon-edge/secrets/hashicorpvault"
-	"github.com/0xPolygon/polygon-edge/secrets/local"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
 	libp2pCrypto "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/network"
+	"github.com/meerkat-chain/mchain/secrets"
+	"github.com/meerkat-chain/mchain/secrets/awsssm"
+	"github.com/meerkat-chain/mchain/secrets/gcpssm"
+	"github.com/meerkat-chain/mchain/secrets/hashicorpvault"
+	"github.com/meerkat-chain/mchain/secrets/local"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 // SetupLocalSecretsManager is a helper method for boilerplate local secrets manager setup

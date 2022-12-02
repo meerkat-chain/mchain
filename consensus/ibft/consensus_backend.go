@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/0xPolygon/go-ibft/messages"
-	"github.com/0xPolygon/polygon-edge/consensus"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/consensus"
+	"github.com/meerkat-chain/mchain/consensus/ibft/signer"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 func (i *backendIBFT) BuildProposal(blockNumber uint64) []byte {

@@ -1,15 +1,15 @@
 package server
 
 import (
-	"github.com/0xPolygon/polygon-edge/consensus"
-	consensusDev "github.com/0xPolygon/polygon-edge/consensus/dev"
-	consensusDummy "github.com/0xPolygon/polygon-edge/consensus/dummy"
-	consensusIBFT "github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/awsssm"
-	"github.com/0xPolygon/polygon-edge/secrets/gcpssm"
-	"github.com/0xPolygon/polygon-edge/secrets/hashicorpvault"
-	"github.com/0xPolygon/polygon-edge/secrets/local"
+	"github.com/meerkat-chain/mchain/consensus"
+	consensusDev "github.com/meerkat-chain/mchain/consensus/dev"
+	consensusDummy "github.com/meerkat-chain/mchain/consensus/dummy"
+	consensusIBFT "github.com/meerkat-chain/mchain/consensus/ibft"
+	"github.com/meerkat-chain/mchain/secrets"
+	"github.com/meerkat-chain/mchain/secrets/awsssm"
+	"github.com/meerkat-chain/mchain/secrets/gcpssm"
+	"github.com/meerkat-chain/mchain/secrets/hashicorpvault"
+	"github.com/meerkat-chain/mchain/secrets/local"
 )
 
 type ConsensusType string

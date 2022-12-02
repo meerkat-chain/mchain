@@ -13,14 +13,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/contracts/abis"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/server/proto"
-	txpoolProto "github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/contracts/abis"
+	"github.com/meerkat-chain/mchain/contracts/staking"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/server/proto"
+	txpoolProto "github.com/meerkat-chain/mchain/txpool/proto"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"
@@ -380,7 +380,7 @@ func MethodSigWithParams(nameWithParams string) []byte {
 
 // tempDir returns directory path in tmp with random directory name
 func tempDir() (string, error) {
-	return os.MkdirTemp("/tmp", "polygon-edge-e2e-")
+	return os.MkdirTemp("/tmp", "mchain-e2e-")
 }
 
 func ToLocalIPv4LibP2pAddr(port int, nodeID string) string {

@@ -4,17 +4,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/fork"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	stakingHelper "github.com/0xPolygon/polygon-edge/helper/staking"
-	"github.com/0xPolygon/polygon-edge/server"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/command"
+	"github.com/meerkat-chain/mchain/command/helper"
+	"github.com/meerkat-chain/mchain/consensus/ibft"
+	"github.com/meerkat-chain/mchain/consensus/ibft/fork"
+	"github.com/meerkat-chain/mchain/consensus/ibft/signer"
+	"github.com/meerkat-chain/mchain/contracts/staking"
+	stakingHelper "github.com/meerkat-chain/mchain/helper/staking"
+	"github.com/meerkat-chain/mchain/server"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
+	"github.com/meerkat-chain/mchain/helper/hex"
 )
 
 type precompiledTest struct {

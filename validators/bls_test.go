@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/stretchr/testify/assert"
 )
 

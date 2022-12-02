@@ -3,18 +3,18 @@ package status
 import (
 	"context"
 
-	"github.com/0xPolygon/polygon-edge/command"
 	"github.com/golang/protobuf/ptypes/empty"
+	"github.com/meerkat-chain/mchain/command"
 	"github.com/spf13/cobra"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/server/proto"
+	"github.com/meerkat-chain/mchain/command/helper"
+	"github.com/meerkat-chain/mchain/server/proto"
 )
 
 func GetCommand() *cobra.Command {
 	statusCmd := &cobra.Command{
 		Use:   "status",
-		Short: "Returns the status of the Polygon Edge client",
+		Short: "Returns the status of the Meerkat Chain client",
 		Args:  cobra.NoArgs,
 		Run:   runCommand,
 	}

@@ -7,16 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/network/common"
-	"github.com/0xPolygon/polygon-edge/network/dial"
-	"github.com/0xPolygon/polygon-edge/network/discovery"
 	"github.com/armon/go-metrics"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/p2p/security/noise"
+	"github.com/meerkat-chain/mchain/network/common"
+	"github.com/meerkat-chain/mchain/network/dial"
+	"github.com/meerkat-chain/mchain/network/discovery"
 	rawGrpc "google.golang.org/grpc"
 
-	peerEvent "github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/secrets"
 	"github.com/hashicorp/go-hclog"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/crypto"
@@ -25,6 +23,8 @@ import (
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/protocol"
+	peerEvent "github.com/meerkat-chain/mchain/network/event"
+	"github.com/meerkat-chain/mchain/secrets"
 	"github.com/multiformats/go-multiaddr"
 )
 

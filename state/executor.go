@@ -6,14 +6,14 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/state/runtime/precompiled"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/state/runtime"
+	"github.com/meerkat-chain/mchain/state/runtime/evm"
+	"github.com/meerkat-chain/mchain/state/runtime/precompiled"
+	"github.com/meerkat-chain/mchain/state/runtime/tracer"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 const (

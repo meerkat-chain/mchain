@@ -8,9 +8,9 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/loadbot/generator"
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/meerkat-chain/mchain/command/helper"
+	"github.com/meerkat-chain/mchain/command/loadbot/generator"
+	"github.com/meerkat-chain/mchain/helper/common"
 )
 
 const (

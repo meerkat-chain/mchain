@@ -5,9 +5,9 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/network"
+	"github.com/meerkat-chain/mchain/secrets"
 )
 
 const DefaultGRPCPort int = 9632

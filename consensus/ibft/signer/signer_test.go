@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/crypto"
+	testHelper "github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 	"github.com/stretchr/testify/assert"
 )
 

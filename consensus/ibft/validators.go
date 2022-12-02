@@ -3,8 +3,8 @@ package ibft
 import (
 	"math"
 
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 )
 
 func CalcMaxFaultyNodes(s validators.Validators) int {

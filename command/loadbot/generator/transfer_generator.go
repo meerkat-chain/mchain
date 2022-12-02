@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 type TransferGenerator struct {

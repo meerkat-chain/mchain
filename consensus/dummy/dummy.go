@@ -1,13 +1,13 @@
 package dummy
 
 import (
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/consensus"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/txpool"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/blockchain"
+	"github.com/meerkat-chain/mchain/consensus"
+	"github.com/meerkat-chain/mchain/helper/progress"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/txpool"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 type Dummy struct {

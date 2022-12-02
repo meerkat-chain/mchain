@@ -7,16 +7,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/armon/go-metrics"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/meerkat-chain/mchain/blockchain"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/network"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/txpool/proto"
+	"github.com/meerkat-chain/mchain/types"
 	"google.golang.org/grpc"
 )
 

@@ -8,13 +8,13 @@ services:
       dockerfile: docker/local/Dockerfile
     command: ["init"]
     volumes:
-      - node-1:/polygon-edge/data-1
-      - node-2:/polygon-edge/data-2
-      - node-3:/polygon-edge/data-3
-      - node-4:/polygon-edge/data-4
+      - node-1:/mchain/data-1
+      - node-2:/mchain/data-2
+      - node-3:/mchain/data-3
+      - node-4:/mchain/data-4
       - genesis:/genesis
     networks:
-      - polygon-edge-docker
+      - mchain-docker
   
   ## RUN NODES
   ## Nodes must have the same names as folders in genesis-legde
@@ -33,7 +33,7 @@ services:
       - node-1:/data
       - genesis:/genesis
     networks:
-      - polygon-edge-docker
+      - mchain-docker
     restart: on-failure
     
   node-2:
@@ -51,7 +51,7 @@ services:
       - node-2:/data
       - genesis:/genesis
     networks:
-      - polygon-edge-docker
+      - mchain-docker
     restart: on-failure
     
   node-3:
@@ -69,7 +69,7 @@ services:
       - node-3:/data
       - genesis:/genesis
     networks:
-      - polygon-edge-docker
+      - mchain-docker
     restart: on-failure
     
   node-4:
@@ -87,13 +87,13 @@ services:
       - node-4:/data
       - genesis:/genesis
     networks:
-      - polygon-edge-docker
+      - mchain-docker
     restart: on-failure
 
 networks:
-  polygon-edge-docker:
+  mchain-docker:
     driver: bridge
-    name: polygon-edge-docker
+    name: mchain-docker
 
 volumes:
   node-1:

@@ -3,18 +3,18 @@ package server
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/server/config"
-	"github.com/0xPolygon/polygon-edge/command/server/export"
-	"github.com/0xPolygon/polygon-edge/server"
+	"github.com/meerkat-chain/mchain/command"
+	"github.com/meerkat-chain/mchain/command/helper"
+	"github.com/meerkat-chain/mchain/command/server/config"
+	"github.com/meerkat-chain/mchain/command/server/export"
+	"github.com/meerkat-chain/mchain/server"
 	"github.com/spf13/cobra"
 )
 
 func GetCommand() *cobra.Command {
 	serverCmd := &cobra.Command{
 		Use:     "server",
-		Short:   "The default command that starts the Polygon Edge client, by bootstrapping all modules together",
+		Short:   "The default command that starts the Meerkat Chain client, by bootstrapping all modules together",
 		PreRunE: runPreRun,
 		Run:     runCommand,
 	}
@@ -64,7 +64,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.rawConfig.DataDir,
 		dataDirFlag,
 		defaultConfig.DataDir,
-		"the data directory used for storing Polygon Edge client data",
+		"the data directory used for storing Meerkat Chain client data",
 	)
 
 	cmd.Flags().StringVar(

@@ -14,12 +14,12 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/contracts/abis"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/contracts/abis"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/e2e/framework"
+	"github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
 )

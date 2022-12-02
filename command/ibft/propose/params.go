@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	ibftOp "github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/command"
+	"github.com/meerkat-chain/mchain/command/helper"
+	ibftOp "github.com/meerkat-chain/mchain/consensus/ibft/proto"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/types"
 )
 
 const (

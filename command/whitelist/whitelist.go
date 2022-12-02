@@ -1,15 +1,15 @@
 package whitelist
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/whitelist/deployment"
-	"github.com/0xPolygon/polygon-edge/command/whitelist/show"
+	"github.com/meerkat-chain/mchain/command/whitelist/deployment"
+	"github.com/meerkat-chain/mchain/command/whitelist/show"
 	"github.com/spf13/cobra"
 )
 
 func GetCommand() *cobra.Command {
 	whitelistCmd := &cobra.Command{
 		Use:   "whitelist",
-		Short: "Top level command for modifying the Polygon Edge whitelists within the config. Only accepts subcommands.",
+		Short: "Top level command for modifying the Meerkat Chain whitelists within the config. Only accepts subcommands.",
 	}
 
 	registerSubcommands(whitelistCmd)

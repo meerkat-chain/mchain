@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/network/common"
-	"github.com/0xPolygon/polygon-edge/network/proto"
-	networkTesting "github.com/0xPolygon/polygon-edge/network/testing"
 	"github.com/hashicorp/go-hclog"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/meerkat-chain/mchain/helper/tests"
+	"github.com/meerkat-chain/mchain/network/common"
+	"github.com/meerkat-chain/mchain/network/proto"
+	networkTesting "github.com/meerkat-chain/mchain/network/testing"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

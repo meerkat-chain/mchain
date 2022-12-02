@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/command/loadbot/generator"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/command/loadbot/generator"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

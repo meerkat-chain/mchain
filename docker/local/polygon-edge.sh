@@ -2,7 +2,7 @@
 
 set -e
 
-POLYGON_EDGE_BIN=./polygon-edge
+POLYGON_EDGE_BIN=./mchain
 GENESIS_PATH=/genesis/genesis.json
 
 case "$1" in
@@ -32,7 +32,7 @@ case "$1" in
           echo "Waiting 1s for genesis file $GENESIS_PATH to be created by init container..."
           sleep 1
       done
-      echo "Executing polygon-edge..."
+      echo "Executing mchain..."
       exec "$POLYGON_EDGE_BIN" "$@"
       ;;
 

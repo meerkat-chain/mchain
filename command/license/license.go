@@ -1,16 +1,16 @@
 package license
 
 import (
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/meerkat-chain/mchain/command"
 	"github.com/spf13/cobra"
 
-	"github.com/0xPolygon/polygon-edge/licenses"
+	"github.com/meerkat-chain/mchain/licenses"
 )
 
 func GetCommand() *cobra.Command {
 	return &cobra.Command{
 		Use:   "license",
-		Short: "Returns Polygon Edge license and dependency attributions",
+		Short: "Returns Meerkat Chain license and dependency attributions",
 		Args:  cobra.NoArgs,
 		Run:   runCommand,
 	}

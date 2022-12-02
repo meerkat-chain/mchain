@@ -8,13 +8,13 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state"
-	itrie "github.com/0xPolygon/polygon-edge/state/immutable-trie"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	"github.com/meerkat-chain/mchain/state"
+	itrie "github.com/meerkat-chain/mchain/state/immutable-trie"
+	"github.com/meerkat-chain/mchain/state/runtime"
+	"github.com/meerkat-chain/mchain/state/runtime/evm"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

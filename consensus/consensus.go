@@ -4,15 +4,15 @@ import (
 	"context"
 	"log"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/txpool"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
+	"github.com/meerkat-chain/mchain/blockchain"
+	"github.com/meerkat-chain/mchain/chain"
+	"github.com/meerkat-chain/mchain/helper/progress"
+	"github.com/meerkat-chain/mchain/network"
+	"github.com/meerkat-chain/mchain/secrets"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/txpool"
+	"github.com/meerkat-chain/mchain/types"
 	"google.golang.org/grpc"
 )
 

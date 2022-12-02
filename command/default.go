@@ -1,10 +1,10 @@
 package command
 
-import "github.com/0xPolygon/polygon-edge/server"
+import "github.com/meerkat-chain/mchain/server"
 
 const (
 	DefaultGenesisFileName = "genesis.json"
-	DefaultChainName       = "polygon-edge"
+	DefaultChainName       = "mchain"
 	DefaultChainID         = 100
 	DefaultPremineBalance  = "0xD3C21BCECCEDA1000000" // 1 million units of native network currency
 	DefaultConsensus       = server.IBFTConsensus

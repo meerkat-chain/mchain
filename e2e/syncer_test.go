@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/meerkat-chain/mchain/e2e/framework"
+	"github.com/meerkat-chain/mchain/validators"
 )
 
 func TestClusterBlockSync(t *testing.T) {
@@ -28,7 +28,7 @@ func TestClusterBlockSync(t *testing.T) {
 
 				if i >= IBFTMinNodes {
 					// Other nodes should not be in the validator set
-					dirPrefix := "polygon-edge-non-validator-"
+					dirPrefix := "mchain-non-validator-"
 					config.SetIBFTDirPrefix(dirPrefix)
 					config.SetIBFTDir(fmt.Sprintf("%s%d", dirPrefix, i))
 				}

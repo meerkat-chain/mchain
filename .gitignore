@@ -7,7 +7,7 @@ config*.json
 bin/
 
 test-chain*
-polygon-edge-chain*
+mchain-chain*
 .idea
 
 # Exclude the build .exe file from version control
@@ -26,3 +26,4 @@ artifacts
 *.log
 
 vendor/
+terraform/

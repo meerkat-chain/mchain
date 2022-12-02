@@ -3,7 +3,7 @@ package generator
 import (
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
+	"github.com/meerkat-chain/mchain/crypto"
 )
 
 type BaseGenerator struct {

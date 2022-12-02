@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/fork"
-	ibftOp "github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/meerkat-chain/mchain/consensus/ibft/fork"
+	ibftOp "github.com/meerkat-chain/mchain/consensus/ibft/proto"
+	"github.com/meerkat-chain/mchain/crypto"
+	"github.com/meerkat-chain/mchain/e2e/framework"
+	"github.com/meerkat-chain/mchain/types"
 	"github.com/stretchr/testify/assert"
 )
 

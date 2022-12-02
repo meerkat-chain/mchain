@@ -7,13 +7,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/network/common"
-	"github.com/0xPolygon/polygon-edge/network/discovery"
-	"github.com/0xPolygon/polygon-edge/network/grpc"
-	"github.com/0xPolygon/polygon-edge/network/proto"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/peerstore"
+	"github.com/meerkat-chain/mchain/network/common"
+	"github.com/meerkat-chain/mchain/network/discovery"
+	"github.com/meerkat-chain/mchain/network/grpc"
+	"github.com/meerkat-chain/mchain/network/proto"
 	rawGrpc "google.golang.org/grpc"
 )
 

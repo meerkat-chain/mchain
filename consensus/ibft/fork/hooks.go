@@ -3,14 +3,14 @@ package fork
 import (
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/hook"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	stakingHelper "github.com/0xPolygon/polygon-edge/helper/staking"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/meerkat-chain/mchain/consensus/ibft/hook"
+	"github.com/meerkat-chain/mchain/contracts/staking"
+	"github.com/meerkat-chain/mchain/helper/hex"
+	stakingHelper "github.com/meerkat-chain/mchain/helper/staking"
+	"github.com/meerkat-chain/mchain/state"
+	"github.com/meerkat-chain/mchain/types"
+	"github.com/meerkat-chain/mchain/validators"
+	"github.com/meerkat-chain/mchain/validators/store"
 )
 
 var (
